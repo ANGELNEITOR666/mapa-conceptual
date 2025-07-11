@@ -1,0 +1,56 @@
+%% Mapa Conceptual: Habilidades Básicas del Pensamiento
+graph TD
+    A[HABILIDADES BÁSICAS<br>DEL PENSAMIENTO] --> B[Observación]
+    A --> C[Descripción]
+    A --> D[Comparación]
+    A --> E[Relación]
+    A --> F[Clasificación]
+    
+    %% Nodo Observación
+    B --> B1["🔍 Proceso consciente de examinar<br>objetos/fenómenos usando los sentidos"]
+    B --> B2["🎯 Características:<br>- Atención focalizada<br>- Intencionalidad<br>- Objetividad"]
+    B --> B3["⚙️ Proceso:<br>1. Identificar objeto<br>2. Centrar atención<br>3. Percibir detalles<br>4. Registrar información"]
+    B --> B4["📌 Función: Base primaria<br>de recolección de datos"]
+    
+    %% Nodo Descripción
+    C --> C1["📝 Comunicación clara de<br>características observadas"]
+    C --> C2["🧩 Elementos clave:<br>- Precisión léxica<br>- Organización lógica<br>- Objetividad"]
+    C --> C3["⚖️ Tipos:<br>• Objetiva (hechos)<br>• Subjetiva (impresiones)"]
+    C --> C4["🔗 Dependencia:<br>Requiere observación previa"]
+    
+    %% Nodo Comparación
+    D --> D1["⚖️ Identificación de<br>semejanzas y diferencias"]
+    D --> D2["📏 Requisitos:<br>- Criterios claros<br>- Elementos comparables<br>- Análisis paralelo"]
+    D --> D3["🚫 No incluye:<br>Juicios de valor"]
+    D --> D4["🧠 Proceso cognitivo:<br>Búsqueda de patrones"]
+    D --> D5["🔗 Vinculación:<br>Base para clasificación"]
+    
+    %% Nodo Relación
+    E --> E1["🔗 Establecimiento de<br>conexiones significativas"]
+    E --> E2["🔍 Tipos comunes:<br>- Causa-efecto<br>- Parte-todo<br>- Función<br>- Secuencia"]
+    E --> E3["💡 Diferencia clave vs Comparación:<br>Identifica interacciones<br>no solo atributos"]
+    E --> E4["🧩 Complejidad:<br>Requiere pensamiento<br>multidimensional"]
+    
+    %% Nodo Clasificación
+    F --> F1["🗂️ Agrupación sistemática<br>por características comunes"]
+    F --> F2["📌 Reglas:<br>- Criterios consistentes<br>- Categorías mutuamente<br>excluyentes<br>- Jerarquías posibles"]
+    F --> F3["🌐 Ejemplos:<br>Taxonomías biológicas<br>Clasificación bibliográfica"]
+    F --> F4["⚙️ Proceso:<br>1. Seleccionar criterios<br>2. Identificar atributos<br>3. Crear categorías<br>4. Asignar elementos"]
+    
+    %% Interrelaciones
+    B -->|Provee datos para| C
+    B & C -->|Materia prima para| D
+    D -->|Sustento para| F
+    D -->|Identifica patrones para| E
+    E -->|Contextualiza| F
+    
+    %% Habilidades Superiores
+    G[HABILIDADES DE PENSAMIENTO<br>SUPERIOR] --> H[Análisis]
+    G --> I[Síntesis]
+    G --> J[Evaluación]
+    
+    %% Conexión final
+    F -->|Base fundamental| G
+    E -->|Desarrolla conexiones| G
+    style A fill:#2ecc71,stroke:#27ae60,color:white
+    style G fill:#e74c3c,stroke:#c0392b,color:white
