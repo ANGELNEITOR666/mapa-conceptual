@@ -1,171 +1,145 @@
-<mxfile host="app.diagrams.net">
-    <diagram name="Page-1" id="74e2E7Cq-0D8Xw0vxY4S">
-        <mxGraphModel dx="1506" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
-            <root>
-                <mxCell id="0"/>
-                <mxCell id="1" parent="0"/>
-                
-                <!-- Título Principal -->
-                <mxCell id="title" value="&lt;b&gt;Sistemas de Transmisión Mecánica&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontStyle=1" vertex="1" parent="1">
-                    <mxGeometry x="350" y="20" width="300" height="40" as="geometry"/>
-                </mxCell>
-                
-                <!-- Mapa Conceptual - Izquierda -->
-                <mxCell id="funcion" value="&lt;b&gt;FUNCIÓN PRINCIPAL&lt;/b&gt;&lt;div&gt;Transmitir potencia mecánica&lt;/div&gt;&lt;div&gt;desde motor → elementos de salida&lt;/div&gt;&lt;div&gt;Modificar:&lt;/div&gt;&lt;div&gt;- Velocidad&lt;/div&gt;&lt;div&gt;- Torque&lt;/div&gt;&lt;div&gt;- Dirección&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="100" width="180" height="180" as="geometry"/>
-                </mxCell>
-                
-                <mxCell id="caracteristicas" value="&lt;b&gt;CARACTERÍSTICAS&lt;/b&gt;&lt;div&gt;↻ Relación de transmisión&lt;/div&gt;&lt;div&gt;⚡ Eficiencia&lt;/div&gt;&lt;div&gt;⇄ Tipo de movimiento&lt;/div&gt;&lt;div&gt;⤴️ Flexibilidad&lt;/div&gt;&lt;div&gt;🔧 Mantenimiento&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="320" width="180" height="150" as="geometry"/>
-                </mxCell>
-                
-                <mxCell id="tipos" value="&lt;b&gt;TIPOS&lt;/b&gt;&lt;div&gt;⛓️ Engranajes&lt;/div&gt;&lt;div&gt;&lt;i&gt;(Relación fija)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;🔄 Correa/Polea&lt;/div&gt;&lt;div&gt;&lt;i&gt;(Amortigua vib.)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;⛓️ Cadena&lt;/div&gt;&lt;div&gt;&lt;i&gt;(Precisión)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;✳️ Cardán&lt;/div&gt;&lt;div&gt;&lt;i&gt;(Ángulos var.)&lt;/i&gt;&lt;/div&gt;&lt;div&gt;📏 Tornillo sin fin&lt;/div&gt;&lt;div&gt;&lt;i&gt;(Irreversible)&lt;/i&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="510" width="180" height="220" as="geometry"/>
-                </mxCell>
-                
-                <mxCell id="componentes" value="&lt;b&gt;COMPONENTES&lt;/b&gt;&lt;div&gt;1. Elemento motriz&lt;/div&gt;&lt;div&gt;2. Mecanismo transmisión&lt;/div&gt;&lt;div&gt;3. Elemento conducido&lt;/div&gt;&lt;div&gt;4. Soportes/cojinetes&lt;/div&gt;&lt;div&gt;5. Sistemas de regulación&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
-                    <mxGeometry x="50" y="770" width="180" height="150" as="geometry"/>
-                </mxCell>
-                
-                <!-- Conexiones Mapa Conceptual -->
-                <mxCell id="conn1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="title" target="funcion">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="conn2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="title" target="caracteristicas">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="conn3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="title" target="tipos">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                <mxCell id="conn4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="title" target="componentes">
-                    <mxGeometry relative="1" as="geometry"/>
-                </mxCell>
-                
-                <!-- Catálogo de Relaciones - Derecha -->
-                <mxCell id="tableTitle" value="&lt;b&gt;CATÁLOGO DE RELACIONES&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
-                    <mxGeometry x="450" y="100" width="300" height="30" as="geometry"/>
-                </mxCell>
-                
-                <!-- Encabezados de Tabla -->
-                <mxCell id="header1" value="&lt;b&gt;Elemento Motriz&lt;/b&gt;" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="150" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="header2" value="&lt;b&gt;Elemento Conducido&lt;/b&gt;" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="150" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="header3" value="&lt;b&gt;Mecanismo&lt;/b&gt;" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="150" width="120" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="header4" value="&lt;b&gt;Relación de Movimiento&lt;/b&gt;" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="150" width="150" height="30" as="geometry"/>
-                </mxCell>
-                <mxCell id="header5" value="&lt;b&gt;Ventajas&lt;/b&gt;" style="shape=partialRectangle;connectable=0;fillColor=#d5e8d4;strokeColor=#82b366;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="150" width="150" height="30" as="geometry"/>
-                </mxCell>
-                
-                <!-- Filas de Datos -->
-                <!-- Fila 1 -->
-                <mxCell id="row1-1" value="⚡ Motor eléctrico" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="180" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row1-2" value="Eje de salida" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="180" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row1-3" value="Engranajes rectos" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="180" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row1-4" value="↔️ Misma dirección&lt;br&gt;velocidad variable" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="180" width="150" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row1-5" value="Alta precisión" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="180" width="150" height="40" as="geometry"/>
-                </mxCell>
-                
-                <!-- Fila 2 -->
-                <mxCell id="row2-1" value="🔥 Motor combustión" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="220" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row2-2" value="Ruedas automóvil" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="220" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row2-3" value="Cadena" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="220" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row2-4" value="↔️ Dirección fija" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="220" width="150" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row2-5" value="Resistencia carga" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="220" width="150" height="40" as="geometry"/>
-                </mxCell>
-                
-                <!-- Fila 3 -->
-                <mxCell id="row3-1" value="💨 Turbina" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="260" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row3-2" value="Generador" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="260" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row3-3" value="Acoplamiento directo" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="260" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row3-4" value="↔️ Veloc/dir. idéntica" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="260" width="150" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row3-5" value="Máxima eficiencia" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="260" width="150" height="40" as="geometry"/>
-                </mxCell>
-                
-                <!-- Fila 4 -->
-                <mxCell id="row4-1" value="🔄 Manivela" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="300" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row4-2" value="Pistón" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="300" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row4-3" value="Biela-manivela" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="300" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row4-4" value="↻ Rotativo → ⬆️⬇️ Alternativo" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="300" width="150" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row4-5" value="Conversión movimiento" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="300" width="150" height="40" as="geometry"/>
-                </mxCell>
-                
-                <!-- Fila 5 -->
-                <mxCell id="row5-1" value="⭕ Polea motriz" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="340" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row5-2" value="Polea conducida" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="340" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row5-3" value="Correa en V" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="340" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row5-4" value="↔️ Con deslizamiento" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="340" width="150" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row5-5" value="Amortigua vibraciones" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="340" width="150" height="40" as="geometry"/>
-                </mxCell>
-                
-                <!-- Fila 6 -->
-                <mxCell id="row6-1" value="📐 Eje principal" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="300" y="380" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row6-2" value="Eje secundario" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="420" y="380" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row6-3" value="Junta cardán" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="540" y="380" width="120" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row6-4" value="⤡ Transmisión angular" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="660" y="380" width="150" height="40" as="geometry"/>
-                </mxCell>
-                <mxCell id="row6-5" value="Flexibilidad montaje" style="shape=partialRectangle;connectable=0;fillColor=none;strokeColor=#000000;whiteSpace=wrap;html=1;overflow=hidden;" vertex="1" parent="1">
-                    <mxGeometry x="810" y="380" width="150" height="40" as="geometry"/>
-                </mxCell>
-            </root>
-        </mxGraphModel>
-    </diagram>
-</mxfile>
+<?xml version="1.0" encoding="UTF-8"?>
+<graphic_organizer>
+    <title>Organizador Gráfico: Habilidades Básicas de Pensamiento</title>
+    
+    <central_node>
+        <label>HABILIDADES BÁSICAS DE PENSAMIENTO</label>
+        <description>Fundamentos cognitivos para procesamiento de información</description>
+        <color>#27ae60</color>
+    </central_node>
+    
+    <nodes>
+        <node id="observation">
+            <label>OBSERVACIÓN</label>
+            <content>
+                <definition>Examen consciente usando los sentidos</definition>
+                <characteristics>
+                    <characteristic>Atención focalizada</characteristic>
+                    <characteristic>Intencionalidad</characteristic>
+                    <characteristic>Objetividad</characteristic>
+                </characteristics>
+                <process>
+                    <step>1. Identificar objeto/situación</step>
+                    <step>2. Centrar atención</step>
+                    <step>3. Percibir detalles</step>
+                    <step>4. Registrar información</step>
+                </process>
+            </content>
+            <position>x="100" y="250"</position>
+            <color>#3498db</color>
+        </node>
+        
+        <node id="description">
+            <label>DESCRIPCIÓN</label>
+            <content>
+                <definition>Comunicación clara de características observadas</definition>
+                <elements>
+                    <element>Precisión léxica</element>
+                    <element>Organización lógica</element>
+                    <element>Objetividad</element>
+                </elements>
+                <dependency>Requiere observación previa</dependency>
+            </content>
+            <position>x="300" y="100"</position>
+            <color>#9b59b6</color>
+        </node>
+        
+        <node id="comparison">
+            <label>COMPARACIÓN</label>
+            <content>
+                <definition>Identificación de semejanzas y diferencias</definition>
+                <requirements>
+                    <requirement>Criterios claros</requirement>
+                    <requirement>Elementos comparables</requirement>
+                </requirements>
+                <prohibited>Juicios de valor</prohibited>
+                <function>Búsqueda de patrones</function>
+            </content>
+            <position>x="500" y="250"</position>
+            <color>#e67e22</color>
+        </node>
+        
+        <node id="relationship">
+            <label>RELACIÓN</label>
+            <content>
+                <definition>Establecimiento de conexiones significativas</definition>
+                <connection_types>
+                    <type>Causa-efecto</type>
+                    <type>Parte-todo</type>
+                    <type>Función</type>
+                    <type>Secuencia</type>
+                </connection_types>
+                <complexity>Pensamiento multidimensional</complexity>
+            </content>
+            <position>x="400" y="400"</position>
+            <color>#e74c3c</color>
+        </node>
+        
+        <node id="classification">
+            <label>CLASIFICACIÓN</label>
+            <content>
+                <definition>Agrupación sistemática por características comunes</definition>
+                <rules>
+                    <rule>Criterios consistentes</rule>
+                    <rule>Categorías excluyentes</rule>
+                </rules>
+                <examples>
+                    <example>Taxonomías biológicas</example>
+                    <example>Clasificación bibliográfica</example>
+                </examples>
+            </content>
+            <position>x="200" y="400"</position>
+            <color>#f1c40f</color>
+        </node>
+    </nodes>
+    
+    <connections>
+        <connection>
+            <from>central_node</from>
+            <to>observation</to>
+        </connection>
+        <connection>
+            <from>central_node</from>
+            <to>description</to>
+        </connection>
+        <connection>
+            <from>central_node</from>
+            <to>comparison</to>
+        </connection>
+        <connection>
+            <from>central_node</from>
+            <to>relationship</to>
+        </connection>
+        <connection>
+            <from>central_node</from>
+            <to>classification</to>
+        </connection>
+        
+        <connection>
+            <from>observation</from>
+            <to>description</to>
+            <label>Provee datos</label>
+        </connection>
+        <connection>
+            <from>observation</from>
+            <to>comparison</to>
+            <label>Materia prima</label>
+        </connection>
+        <connection>
+            <from>comparison</from>
+            <to>classification</to>
+            <label>Base para</label>
+        </connection>
+        <connection>
+            <from>comparison</from>
+            <to>relationship</to>
+            <label>Identifica patrones</label>
+        </connection>
+    </connections>
+    
+    <legend>
+        <note>Flechas continuas: Relación directa</note>
+        <note>Flechas punteadas: Dependencia secundaria</note>
+        <note>Colores: Identificación visual de habilidades</note>
+    </legend>
+</graphic_organizer>
