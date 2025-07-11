@@ -1,0 +1,93 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="Page-1" id="74e2E7Cq-0D8Xw0vxY4S">
+        <mxGraphModel dx="1206" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- Título Principal -->
+                <mxCell id="title" value="&lt;b style=&quot;font-size: 24px&quot;&gt;HABILIDADES BÁSICAS DEL PENSAMIENTO&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="30" width="300" height="50" as="geometry"/>
+                </mxCell>
+                
+                <!-- Nodo Central -->
+                <mxCell id="central" value="&lt;b&gt;Clasificación&lt;/b&gt;&lt;div&gt;(Proceso cognitivo fundamental)&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="150" width="150" height="150" as="geometry"/>
+                </mxCell>
+                
+                <!-- Habilidades -->
+                <!-- Observación -->
+                <mxCell id="obs" value="&lt;b&gt;Observación&lt;/b&gt;&lt;div&gt;&lt;i&gt;Identificar características&lt;/i&gt;&lt;/div&gt;&lt;div&gt;- Usar sentidos&lt;/div&gt;&lt;div&gt;- Detectar detalles&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                
+                <!-- Descripción -->
+                <mxCell id="desc" value="&lt;b&gt;Descripción&lt;/b&gt;&lt;div&gt;&lt;i&gt;Enumerar características&lt;/i&gt;&lt;/div&gt;&lt;div&gt;- Organizar información&lt;/div&gt;&lt;div&gt;- Expresar cualidades&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="250" width="180" height="100" as="geometry"/>
+                </mxCell>
+                
+                <!-- Comparación -->
+                <mxCell id="comp" value="&lt;b&gt;Comparación&lt;/b&gt;&lt;div&gt;&lt;i&gt;Establecer relaciones&lt;/i&gt;&lt;/div&gt;&lt;div&gt;- Identificar semejanzas&lt;/div&gt;&lt;div&gt;- Detectar diferencias&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="400" width="180" height="100" as="geometry"/>
+                </mxCell>
+                
+                <!-- Relación -->
+                <mxCell id="rel" value="&lt;b&gt;Relación&lt;/b&gt;&lt;div&gt;&lt;i&gt;Conectar elementos&lt;/i&gt;&lt;/div&gt;&lt;div&gt;- Establecer vínculos&lt;/div&gt;&lt;div&gt;- Identificar patrones&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="100" width="180" height="100" as="geometry"/>
+                </mxCell>
+                
+                <!-- Clasificación -->
+                <mxCell id="clas" value="&lt;b&gt;Clasificación&lt;/b&gt;&lt;div&gt;&lt;i&gt;Agrupar por criterios&lt;/i&gt;&lt;/div&gt;&lt;div&gt;- Identificar categorías&lt;/div&gt;&lt;div&gt;- Organizar sistemáticamente&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="250" width="180" height="100" as="geometry"/>
+                </mxCell>
+                
+                <!-- Proceso de Desarrollo -->
+                <mxCell id="proceso" value="&lt;b&gt;Progresión de Desarrollo&lt;/b&gt;&lt;div&gt;1. Observación → 2. Descripción&lt;/div&gt;&lt;div&gt;3. Comparación → 4. Relación&lt;/div&gt;&lt;div&gt;5. Clasificación&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="380" y="350" width="200" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Conexiones -->
+                <mxCell id="c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="obs">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="c2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="desc">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="comp">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="c4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="rel">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="c5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="clas">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <!-- Conexión Observación-Descripción -->
+                <mxCell id="p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;strokeWidth=1;" edge="1" parent="1" source="obs" target="desc">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <!-- Conexión Descripción-Comparación -->
+                <mxCell id="p2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;strokeWidth=1;" edge="1" parent="1" source="desc" target="comp">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <!-- Conexión Comparación-Relación -->
+                <mxCell id="p3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;strokeWidth=1;" edge="1" parent="1" source="comp" target="rel">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <!-- Conexión Relación-Clasificación -->
+                <mxCell id="p4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;strokeWidth=1;" edge="1" parent="1" source="rel" target="clas">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <!-- Nota Final -->
+                <mxCell id="nota" value="&lt;i&gt;Estas habilidades son interdependientes y se desarrollan&lt;br&gt;de manera progresiva en el proceso cognitivo&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="500" width="300" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
