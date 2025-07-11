@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<habilidades_pensamiento>
+    <metadatos>
+        <titulo>Habilidades Básicas del Pensamiento: Observación, Descripción, Comparación, Relación y Clasificación</titulo>
+        <autor>Tu Nombre</autor>
+        <fecha>2025-07-11</fecha>
+        <institucion>Nombre de la Institución</institucion>
+        <asignatura>Nombre de la Asignatura</asignatura>
+        <profesor>Nombre del Profesor</profesor>
+    </metadatos>
+    
+    <habilidades>
+        <habilidad id="observacion">
+            <nombre>Observación</nombre>
+            <definicion>Proceso consciente de examinar objetos, fenómenos o situaciones usando los sentidos</definicion>
+            <caracteristicas>
+                <caracteristica>Atención focalizada</caracteristica>
+                <caracteristica>Intencionalidad</caracteristica>
+                <caracteristica>Objetividad</caracteristica>
+            </caracteristicas>
+            <proceso>
+                <paso>1. Identificar objeto/situación</paso>
+                <paso>2. Centrar la atención</paso>
+                <paso>3. Percibir detalles</paso>
+                <paso>4. Registrar información</paso>
+            </proceso>
+            <funcion>Base primaria de recolección de datos</funcion>
+        </habilidad>
+        
+        <habilidad id="descripcion">
+            <nombre>Descripción</nombre>
+            <definicion>Comunicación clara de características observadas</definicion>
+            <elementos_clave>
+                <elemento>Precisión léxica</elemento>
+                <elemento>Organización lógica</elemento>
+                <elemento>Objetividad</elemento>
+            </elementos_clave>
+            <tipos>
+                <tipo>Objetiva (basada en hechos)</tipo>
+                <tipo>Subjetiva (incluye impresiones)</tipo>
+            </tipos>
+            <dependencia>Requiere observación previa</dependencia>
+        </habilidad>
+        
+        <habilidad id="comparacion">
+            <nombre>Comparación</nombre>
+            <definicion>Identificación de semejanzas y diferencias entre elementos</definicion>
+            <requisitos>
+                <requisito>Criterios claros</requisito>
+                <requisito>Elementos comparables</requisito>
+                <requisito>Análisis paralelo</requisito>
+            </requisitos>
+            <prohibido>Juicios de valor</prohibido>
+            <proceso_cognitivo>Búsqueda de patrones</proceso_cognitivo>
+            <vinculacion>Base para clasificación</vinculacion>
+        </habilidad>
+        
+        <habilidad id="relacion">
+            <nombre>Relación</nombre>
+            <definicion>Establecimiento de conexiones significativas entre elementos</definicion>
+            <tipos_conexiones>
+                <tipo>Causa-efecto</tipo>
+                <tipo>Parte-todo</tipo>
+                <tipo>Función</tipo>
+                <tipo>Secuencia</tipo>
+            </tipos_conexiones>
+            <diferencia_comparacion>Identifica interacciones, no solo atributos</diferencia_comparacion>
+            <complejidad>Requiere pensamiento multidimensional</complejidad>
+        </habilidad>
+        
+        <habilidad id="clasificacion">
+            <nombre>Clasificación</nombre>
+            <definicion>Agrupación sistemática por características comunes</definicion>
+            <reglas>
+                <regla>Criterios consistentes</regla>
+                <regla>Categorías mutuamente excluyentes</regla>
+                <regla>Jerarquías posibles</regla>
+            </reglas>
+            <ejemplos>
+                <ejemplo>Taxonomías biológicas</ejemplo>
+                <ejemplo>Clasificación bibliográfica</ejemplo>
+            </ejemplos>
+            <proceso>
+                <paso>1. Seleccionar criterios</paso>
+                <paso>2. Identificar atributos</paso>
+                <paso>3. Crear categorías</paso>
+                <paso>4. Asignar elementos</paso>
+            </proceso>
+        </habilidad>
+    </habilidades>
+    
+    <interrelaciones>
+        <dependencia>
+            <origen>observacion</origen>
+            <destino>descripcion</destino>
+            <tipo>provee_datos</tipo>
+        </dependencia>
+        <dependencia>
+            <origen>observacion</origen>
+            <destino>comparacion</destino>
+            <tipo>materia_prima</tipo>
+        </dependencia>
+        <dependencia>
+            <origen>comparacion</origen>
+            <destino>clasificacion</destino>
+            <tipo>sustento</tipo>
+        </dependencia>
+        <dependencia>
+            <origen>comparacion</origen>
+            <destino>relacion</destino>
+            <tipo>identifica_patrones</tipo>
+        </dependencia>
+    </interrelaciones>
+    
+    <habilidades_superiores>
+        <habilidad>Análisis</habilidad>
+        <habilidad>Síntesis</habilidad>
+        <habilidad>Evaluación</habilidad>
+        <base_fundamental>Habilidades básicas del pensamiento</base_fundamental>
+    </habilidades_superiores>
+    
+    <conclusion_personal>
+        <texto>
+            El dominio de estas cinco habilidades básicas constituye el fundamento esencial para el desarrollo cognitivo. 
+            Forman un sistema integrado donde cada habilidad se construye sobre la anterior, creando una estructura 
+            sólida para el pensamiento crítico. Su práctica constante permite navegar la complejidad del mundo moderno 
+            con mayor claridad y profundidad, siendo herramientas indispensables tanto en el ámbito académico como en 
+            la vida cotidiana para la toma de decisiones informadas y el aprendizaje permanente.
+        </texto>
+    </conclusion_personal>
+</habilidades_pensamiento>
