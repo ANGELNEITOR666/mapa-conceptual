@@ -1,0 +1,158 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="Page-1" id="74e2E7Cq-0D8Xw0vxY4S">
+        <mxGraphModel dx="1206" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- Título Principal -->
+                <mxCell id="title" value="&lt;b style=&quot;font-size: 24px&quot;&gt;TIPOS DE LUBRICANTES SEGÚN APLICACIÓN Y REQUERIMIENTOS DE MÁQUINAS&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="20" width="600" height="50" as="geometry"/>
+                </mxCell>
+                
+                <!-- Nodo Central -->
+                <mxCell id="central" value="&lt;b&gt;LUBRICANTES INDUSTRIALES&lt;/b&gt;&lt;div&gt;Función: Reducir fricción, desgaste y temperatura&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="100" width="150" height="150" as="geometry"/>
+                </mxCell>
+                
+                <!-- Clasificación por Estado Físico -->
+                <mxCell id="fisico" value="&lt;b&gt;CLASIFICACIÓN POR ESTADO FÍSICO&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="300" width="250" height="40" as="geometry"/>
+                </mxCell>
+                
+                <!-- Aceites -->
+                <mxCell id="aceites" value="&lt;b&gt;🛢️ ACEITES&lt;/b&gt;&lt;div&gt;• Viscosidad variable&lt;/div&gt;&lt;div&gt;• Aplicaciones: Motores, engranajes&lt;/div&gt;&lt;div&gt;• Requerimiento: Estabilidad térmica&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="360" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Grasas -->
+                <mxCell id="grasas" value="&lt;b&gt;🧴 GRASAS&lt;/b&gt;&lt;div&gt;• Semi-sólidas&lt;/div&gt;&lt;div&gt;• Aplicaciones: Rodamientos, chasis&lt;/div&gt;&lt;div&gt;• Requerimiento: Resistencia al agua&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="500" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sólidos -->
+                <mxCell id="solidos" value="&lt;b&gt;⛓️ LUBRICANTES SÓLIDOS&lt;/b&gt;&lt;div&gt;• Grafito, PTFE, Molibdeno&lt;/div&gt;&lt;div&gt;• Aplicaciones: Altas temperaturas&lt;/div&gt;&lt;div&gt;• Requerimiento: Adherencia extrema&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="640" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Clasificación por Base -->
+                <mxCell id="base" value="&lt;b&gt;CLASIFICACIÓN POR BASE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="300" width="250" height="40" as="geometry"/>
+                </mxCell>
+                
+                <!-- Minerales -->
+                <mxCell id="minerales" value="&lt;b&gt;🛢️ MINERALES&lt;/b&gt;&lt;div&gt;• Derivados petróleo&lt;/div&gt;&lt;div&gt;• Aplicaciones: Uso general&lt;/div&gt;&lt;div&gt;• Requerimiento: Cambios frecuentes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="360" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sintéticos -->
+                <mxCell id="sinteticos" value="&lt;b&gt;🧪 SINTÉTICOS&lt;/b&gt;&lt;div&gt;• Polialfaolefinas, Ésteres&lt;/div&gt;&lt;div&gt;• Aplicaciones: Alto rendimiento&lt;/div&gt;&lt;div&gt;• Requerimiento: Estabilidad oxidativa&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="500" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Biodegradables -->
+                <mxCell id="bio" value="&lt;b&gt;🌿 BIODEGRADABLES&lt;/b&gt;&lt;div&gt;• Base vegetal&lt;/div&gt;&lt;div&gt;• Aplicaciones: Sector alimenticio&lt;/div&gt;&lt;div&gt;• Requerimiento: Certificación NSF&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="640" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Aplicaciones Específicas -->
+                <mxCell id="aplicaciones" value="&lt;b&gt;APLICACIONES ESPECÍFICAS&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="300" width="250" height="40" as="geometry"/>
+                </mxCell>
+                
+                <!-- Motores -->
+                <mxCell id="motores" value="&lt;b&gt;🚗 MOTORES&lt;/b&gt;&lt;div&gt;• Aceites multiviscosos&lt;/div&gt;&lt;div&gt;• Requerimientos:&lt;/div&gt;&lt;div&gt;  - Índice de viscosidad alto&lt;/div&gt;&lt;div&gt;  - Detergencia&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="360" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Engranajes -->
+                <mxCell id="engranajes" value="&lt;b&gt;⚙️ ENGRANAJES&lt;/b&gt;&lt;div&gt;• Aceites EP (Extrema Presión)&lt;/div&gt;&lt;div&gt;• Requerimientos:&lt;/div&gt;&lt;div&gt;  - Aditivos anti-desgaste&lt;/div&gt;&lt;div&gt;  - Resistencia carga&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="500" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sistemas Hidráulicos -->
+                <mxCell id="hidraulicos" value="&lt;b&gt;💧 SISTEMAS HIDRÁULICOS&lt;/b&gt;&lt;div&gt;• Aceites anti-desgaste&lt;/div&gt;&lt;div&gt;• Requerimientos:&lt;/div&gt;&lt;div&gt;  - Filtrabilidad&lt;/div&gt;&lt;div&gt;  - Anti-espumantes&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="640" width="250" height="120" as="geometry"/>
+                </mxCell>
+                
+                <!-- Requerimientos Clave -->
+                <mxCell id="reqTitle" value="&lt;b&gt;REQUERIMIENTOS CLAVE PARA SELECCIÓN&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="800" width="400" height="30" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="req1" value="• Viscosidad adecuada al sistema" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="850" width="200" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="req2" value="• Estabilidad térmica y oxidativa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="850" width="200" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="req3" value="• Compatibilidad con materiales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="850" width="200" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="req4" value="• Protección contra corrosión" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="900" width="200" height="40" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="req5" value="• Resistencia al lavado por agua" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="900" width="200" height="40" as="geometry"/>
+                </mxCell>
+                
+                <!-- Conexiones -->
+                <mxCell id="c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="fisico">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="base">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;strokeWidth=2;" edge="1" parent="1" source="central" target="aplicaciones">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="fisico" target="aceites">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="fisico" target="grasas">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="fisico" target="solidos">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="base" target="minerales">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="base" target="sinteticos">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="base" target="bio">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="aplicaciones" target="motores">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="aplicaciones" target="engranajes">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="c12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;dashed=1;strokeColor=#666666;" edge="1" parent="1" source="aplicaciones" target="hidraulicos">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                
+                <mxCell id="nota" value="&lt;i&gt;La selección adecuada considera: tipo de máquina, condiciones operativas, temperatura, carga y ambiente&lt;/i&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="950" width="400" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
