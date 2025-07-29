@@ -1,0 +1,103 @@
+<mxfile host="app.diagrams.net">
+    <diagram name="Page-1">
+        <mxGraphModel dx="1506" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                
+                <!-- Título Central -->
+                <mxCell id="title" value="&lt;b style=&quot;font-size: 24px&quot;&gt;MONTAJE Y DESMONTAJE DE RODAMIENTOS/COJINETES&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="50" width="300" height="100" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sección 1: Preparación -->
+                <mxCell id="prep" value="&lt;b&gt;⚙️ PREPARACIÓN&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="200" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="prep1" value="• Limpieza de ejes y alojamientos&lt;br&gt;• Verificar tolerancias (ajuste eje/hueco)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="260" width="300" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="prep2" value="• Lubricación inicial&lt;br&gt;• Control de temperatura ambiente" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+                    <mxGeometry x="50" y="340" width="300" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sección 2: Montaje -->
+                <mxCell id="montaje" value="&lt;b&gt;🛠️ MONTAJE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="400" y="200" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="mont1" value="&lt;b&gt;MÉTODO EN FRÍO:&lt;/b&gt;&lt;br&gt;- Prensa hidráulica&lt;br&gt;- Fuerza aplicada al anillo interior" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="260" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="mont2" value="&lt;b&gt;MÉTODO EN CALIENTE:&lt;/b&gt;&lt;br&gt;- Calentar rodamiento (max 120°C)&lt;br&gt;- Nunca usar llama directa" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="360" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="mont3" value="• Alinear correctamente&lt;br&gt;• Verificar ausencia de inclinación" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="460" width="300" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sección 3: Desmontaje -->
+                <mxCell id="desmontaje" value="&lt;b&gt;🔧 DESMONTAJE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="700" y="200" width="200" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="desm1" value="&lt;b&gt;EXTRACCIÓN MECÁNICA:&lt;/b&gt;&lt;br&gt;- Extractores de 2/3 garras&lt;br&gt;- Fuerza sobre anillo interior" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="260" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="desm2" value="&lt;b&gt;MÉTODO TÉRMICO:&lt;/b&gt;&lt;br&gt;- Enfriar eje con nitrógeno&lt;br&gt;- Calentar carcasa (ΔT max 80°C)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="360" width="300" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="desm3" value="• Evitar daños en ejes&lt;br&gt;• No golpear directamente" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="650" y="460" width="300" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sección 4: Verificación -->
+                <mxCell id="verif" value="&lt;b&gt;✅ VERIFICACIÓN POSTERIOR&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="550" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="verif1" value="• Giro suave sin ruidos anormales&lt;br&gt;• Juego axial/radial dentro de tolerancia" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="610" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="verif2" value="• Lubricación adecuada&lt;br&gt;• Ausencia de fugas" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="690" width="400" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Sección 5: Seguridad -->
+                <mxCell id="seg" value="&lt;b&gt;⚠️ MEDIDAS DE SEGURIDAD&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="780" width="250" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="seg1" value="• EPP: Guantes térmicos, gafas, calzado antideslizante&lt;br&gt;• Bloqueo energético (LOTO)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="840" width="400" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="seg2" value="• Zonas delimitadas para trabajo térmico&lt;br&gt;• Ventilación en espacios cerrados" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="920" width="400" height="60" as="geometry"/>
+                </mxCell>
+                
+                <!-- Conexiones -->
+                <!-- Preparación -->
+                <mxCell id="c1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="title" target="prep"/>
+                <mxCell id="c2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="prep" target="prep1"/>
+                <mxCell id="c3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="prep" target="prep2"/>
+                
+                <!-- Montaje -->
+                <mxCell id="c4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="title" target="montaje"/>
+                <mxCell id="c5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="montaje" target="mont1"/>
+                <mxCell id="c6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="montaje" target="mont2"/>
+                <mxCell id="c7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="montaje" target="mont3"/>
+                
+                <!-- Desmontaje -->
+                <mxCell id="c8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="title" target="desmontaje"/>
+                <mxCell id="c9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="desmontaje" target="desm1"/>
+                <mxCell id="c10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="desmontaje" target="desm2"/>
+                <mxCell id="c11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="desmontaje" target="desm3"/>
+                
+                <!-- Verificación y Seguridad -->
+                <mxCell id="c12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="title" target="verif"/>
+                <mxCell id="c13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="verif" target="verif1"/>
+                <mxCell id="c14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="verif" target="verif2"/>
+                
+                <mxCell id="c15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="title" target="seg"/>
+                <mxCell id="c16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="seg" target="seg1"/>
+                <mxCell id="c17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="seg" target="seg2"/>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
